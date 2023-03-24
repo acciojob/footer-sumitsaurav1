@@ -22,7 +22,7 @@
 	gap:15px;
 }
 .link-boxes{
-	display:grid;
+	display:flex;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	padding-top:20px;
 	margin-left:0px;
