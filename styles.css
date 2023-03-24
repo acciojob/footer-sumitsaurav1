@@ -1,1 +1,53 @@
 /* your code here */
+*{
+	margin:0px;
+}
+.content{
+	background-color:black;
+	color:white;
+	padding:40px;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+/* 	margin:30px; */
+	align-items:center;
+}
+.logo_name{
+	font-size:50px
+}
+.media-icons{
+	display:flex;
+	align-items:center;
+	gap:15px;
+}
+.link-boxes{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top:20px;
+	margin-left:0px;
+	grid-column-gap:30px;
+	
+}
+h2{
+	text-decoration:underline;
+}
+.boxes{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+/* 	align-items:center; */
+	
+}
+.li{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.bottom-details{
+	background-color:rgb(44,48,58);
+	display:flex;
+	justify-content:space-between;
+	padding:10px 0px;
+	padding:10px 40px
+}
